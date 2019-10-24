@@ -1,0 +1,25 @@
+{
+  "name": "observable-spawn",
+  "version": "1.0.0",
+  "description": "spawn wrapped inside of an rxjs observable",
+  "main": "./src/index.js",
+  "author": "Killian Hale",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn lint:fix && yarn lint && yarn compile",
+    "compile": "tsc -p tsconfig.json",
+    "lint": "tslint -p tsconfig.json",
+    "lint:fix": "tslint -p tsconfig.json --fix --quiet"
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.0",
+    "rxjs": "^6.5.3",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.0",
+    "@types/underscore": "^1.9.3",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}

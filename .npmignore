@@ -1,0 +1,11 @@
+.DS_Store
+
+.git/
+
+tslint.json
+tsconfig.json
+*.ts
+!*.d.ts
+
+npm-debug.log
+npm-error.log
